@@ -51,7 +51,13 @@
 4. 所有配置项都有合理的默认值，新用户无需文档即可运行
 5. 日志系统记录启动步骤、预热进度、运行时状态
 
-**Plans**: TBD
+**Plans**: 4 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — 项目结构 (pyproject.toml, 目录骨架, 预设配置)
+- [ ] 01-02-PLAN.md — 配置系统 (YAML加载, 预设合并, XDG路径)
+- [ ] 01-03-PLAN.md — CLI框架 (Typer主命令, --help, --preset, --dry-run)
+- [ ] 01-04-PLAN.md — 日志系统 (verbose日志, Rich handler, 分级输出)
 
 ---
 
