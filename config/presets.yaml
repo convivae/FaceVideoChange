@@ -1,0 +1,43 @@
+# FaceVideoChange 内置预设配置
+# 使用 --preset <name> 加载
+
+presets:
+  realtime-8gb:
+    description: "RTX 4060 实时换脸（推荐）"
+    fps: 30
+    resolution: [1280, 720]
+    model: "inswapper_128_fp16"
+    quality: 75
+    face_swap_strength: 0.85
+    stream:
+      enable: true
+      codec: "h264"
+      bitrate: "2500k"
+    record:
+      enable: false
+
+  quality-8gb:
+    description: "RTX 4060 高质量模式"
+    fps: 15
+    resolution: [1920, 1080]
+    model: "inswapper_128_fp16"
+    quality: 90
+    face_swap_strength: 1.0
+    stream:
+      enable: true
+      codec: "h264"
+      bitrate: "5000k"
+    record:
+      enable: false
+
+  preview-only:
+    description: "仅本地预览，无推流"
+    fps: 30
+    resolution: [1280, 720]
+    model: "inswapper_128_fp16"
+    quality: 75
+    face_swap_strength: 0.85
+    stream:
+      enable: false
+    record:
+      enable: false
