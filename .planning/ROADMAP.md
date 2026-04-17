@@ -54,10 +54,10 @@
 **Plans**: 4 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — 项目结构 (pyproject.toml, 目录骨架, 预设配置)
-- [ ] 01-02-PLAN.md — 配置系统 (YAML加载, 预设合并, XDG路径)
-- [ ] 01-03-PLAN.md — CLI框架 (Typer主命令, --help, --preset, --dry-run)
-- [ ] 01-04-PLAN.md — 日志系统 (verbose日志, Rich handler, 分级输出)
+- [x] 01-01-PLAN.md — 项目结构 (pyproject.toml, 目录骨架, 预设配置)
+- [x] 01-02-PLAN.md — 配置系统 (YAML加载, 预设合并, XDG路径)
+- [x] 01-03-PLAN.md — CLI框架 (Typer主命令, --help, --preset, --dry-run)
+- [x] 01-04-PLAN.md — 日志系统 (verbose日志, Rich handler, 分级输出)
 
 ---
 
