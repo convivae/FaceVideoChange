@@ -77,7 +77,12 @@ Plans:
 4. 模型预热时间 < 3秒
 5. onnxslim 优化后模型体积减少 20%+，速度提升 10%+
 
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — 模型下载基础设施 (SHA256验证, skip-if-missing)
+- [ ] 02-02-PLAN.md — Benchmark框架 (FPS, VRAM, 预热时间测量)
+- [ ] 02-03-PLAN.md — onnxslim优化 (批量优化, 速度对比)
 
 ---
 
@@ -206,7 +211,7 @@ Plans:
 | Phase | Name | Plans Complete | Status | Completed |
 |-------|------|----------------|--------|-----------|
 | 1 | 项目基础设施 | 0/4 | Not started | - |
-| 2 | 模型验证与优化 | 0/5 | Not started | - |
+| 2 | 模型验证与优化 | 0/3 | Not started | - |
 | 3 | 核心换脸管线 | 0/5 | Not started | - |
 | 4 | 输入输出系统 | 0/5 | Not started | - |
 | 5 | 人脸管理系统 | 0/5 | Not started | - |
